@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Кнопки</title>
-  <style type="text/css">
-   button.new {
-    background: -moz-linear-gradient(#00BBD6, #EBFFFF);
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
-    padding: 3px 7px;
-    color: #333;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #666;
-   }
-  </style>
- </head> 
- <body>
+<head>
+<title></title>
+<link	rel="stylesheet" 
+href="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css" />
+<script src="//code.jquery.com/jquery-1.5.1.min.js">
+</script>
+<script src="//code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js">
+</script>
+</head>
+<body>
+<div data-role="controlgroup">
+<a href="index.html" data-role="button">Да</a>
+<a href="index.html" data-role="button">Нет</a>
+<a href="index.html" data-role="button">Выход</a>
+</div>
+
 <p><button onclick="window.location.href='yandexnavi://build_route_on_map?lat_to=55.177049&lon_to=37.974053'">Яндекс Навигатор</button></p>
 <p><button onclick="window.location.href='yandexmaps://maps.yandex.ru/?pt=37.974053,55.177049&z=18'">Яндекс Карты</button></p>
 </body>
