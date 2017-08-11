@@ -1,6 +1,24 @@
+<!DOCTYPE html>
 <html>
-<body>
-<button onclick="window.location.href='yandexnavi://build_route_on_map?lat_to=55.177049&lon_to=37.974053'">Navi</button>
-<button onclick="window.location.href='yandexmaps://maps.yandex.ru/?pt=37.974053,55.177049&z=18'">Maps</button>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Кнопки</title>
+  <style type="text/css">
+   button.new {
+    background: -moz-linear-gradient(#00BBD6, #EBFFFF);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+   }
+  </style>
+ </head> 
+ <body>
+<p><button onclick="window.location.href='yandexnavi://build_route_on_map?lat_to=55.177049&lon_to=37.974053'">Яндекс Навигатор</button></p>
+<p><button onclick="window.location.href='yandexmaps://maps.yandex.ru/?pt=37.974053,55.177049&z=18'">Яндекс Карты</button></p>
 </body>
 </html>
